@@ -127,3 +127,55 @@ main {
     object-fit: contain;
     object-position: center;
 }
+
+.about-section {
+    text-align: center;
+}
+
+.about-section img {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+/* Character form */
+.character-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.character-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.character-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.character-form input,
+.character-form textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.character-form textarea {
+    height: 100px;
+}
+
+.character-form button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
