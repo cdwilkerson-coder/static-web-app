@@ -115,3 +115,15 @@ main {
         margin: 10px 0;
     }
 }
+
+.character-details {
+    text-align: center;
+}
+
+.character-details img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
+}
